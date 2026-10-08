@@ -1,173 +1,413 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Alin Alex Calugaru | Author & Independent Creator</title>
+<title>ALIN ALEX CALUGARU | Official Author Website</title>
 
-  <meta name="description"
-        content="Official website of Alin Alex Calugaru, Romanian author and independent creator based in France. Author of THE SPARK CODE and THE LAST STEP. THE FIRST TRACE.">
+<meta name="description" content="Official website of Alin Alex Calugaru, Romanian author of romance, comedy, science fiction and psychological fiction.">
+<meta name="author" content="Alin Alex Calugaru">
+<meta name="theme-color" content="#0c0d12">
 
-  <meta name="author" content="Alin Alex Calugaru">
+<style>
+:root {
+  --bg: #0c0d12;
+  --panel: #191b23;
+  --gold: #d7b77e;
+  --white: #f5f1e9;
+  --muted: #c1bec0;
+}
 
-  <meta property="og:title" content="Alin Alex Calugaru">
-  <meta property="og:description"
-        content="Author of THE SPARK CODE and THE LAST STEP. THE FIRST TRACE.">
-  <meta property="og:type" content="profile">
+* { box-sizing: border-box; }
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0d1117;
-      color: #ffffff;
-      text-align: center;
-    }
+html { scroll-behavior: smooth; }
 
-    main {
-      max-width: 850px;
-      margin: auto;
-      padding: 60px 25px;
-    }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--white);
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+}
 
-    .profile-photo {
-      width: 240px;
-      max-width: 80%;
-      border-radius: 18px;
-      margin-bottom: 25px;
-      border: 1px solid #30363d;
-    }
+header {
+  padding: 22px;
+  text-align: center;
+  background: #12141a;
+  border-bottom: 1px solid #51432e;
+}
 
-    h1 {
-      font-size: 46px;
-      margin-bottom: 8px;
-    }
+.logo {
+  color: var(--gold);
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
 
-    .subtitle {
-      color: #b7c0cc;
-      font-size: 20px;
-    }
+nav { margin-top: 12px; }
 
-    section {
-      margin-top: 55px;
-    }
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
 
-    h2 {
-      font-size: 28px;
-    }
+nav a:hover { color: var(--gold); }
 
-    p {
-      color: #d2d8e0;
-      font-size: 18px;
-      line-height: 1.7;
-    }
+.hero {
+  padding: 75px 20px;
+  text-align: center;
+  background: linear-gradient(#20222b, #0c0d12);
+}
 
-    .card {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 15px;
-      padding: 25px;
-      margin: 20px 0;
-    }
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid var(--gold);
+}
 
-    a {
-      color: #58a6ff;
-    }
+.eyebrow {
+  color: var(--gold);
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
 
-    footer {
-      margin-top: 70px;
-      color: #8b949e;
-    }
-  </style>
+h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(38px, 7vw, 68px);
+  font-weight: normal;
+  line-height: 1.15;
+  margin: 20px 0;
+}
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Alin Alex Calugaru",
-    "url": "https://alincalugaru22-lab.github.io/",
-    "sameAs": [
-      "https://orcid.org/0009-0006-6637-5050"
-    ],
-    "jobTitle": "Author and Independent Creator"
-  }
-  </script>
+.tagline {
+  color: var(--gold);
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-style: italic;
+}
 
+.intro {
+  max-width: 650px;
+  margin: 22px auto;
+  color: var(--muted);
+}
+
+.button {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 13px 30px;
+  background: var(--gold);
+  color: #111;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+section {
+  max-width: 1120px;
+  margin: auto;
+  padding: 75px 22px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(30px, 5vw, 43px);
+  font-weight: normal;
+  text-align: center;
+}
+
+.section-intro {
+  text-align: center;
+  color: var(--muted);
+}
+
+.books {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  margin-top: 45px;
+}
+
+.book {
+  background: var(--panel);
+  border: 1px solid #54452f;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.book-cover {
+  height: 145px;
+  background: linear-gradient(135deg, #342c21, #171922);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-family: Georgia, serif;
+  font-size: 48px;
+}
+
+.book-content { padding: 25px; }
+
+.genre {
+  color: var(--gold);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.book h3 {
+  font-family: Georgia, serif;
+  font-size: 23px;
+  line-height: 1.35;
+}
+
+.book p {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.about-wrapper {
+  background: #171920;
+  border-top: 1px solid #4a3e2b;
+  border-bottom: 1px solid #4a3e2b;
+}
+
+.about {
+  max-width: 850px;
+}
+
+.about p {
+  color: #d2cfd0;
+  font-size: 17px;
+  margin: 24px 0;
+}
+
+.about strong { color: var(--gold); }
+
+.quote {
+  margin: 45px auto;
+  padding: 25px;
+  border-left: 3px solid var(--gold);
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 23px;
+  color: var(--gold);
+  text-align: center;
+}
+
+.final-question {
+  font-family: Georgia, serif;
+  color: var(--gold);
+  text-align: center;
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 35px 20px;
+  color: #a6a3a3;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .hero { padding: 50px 18px; }
+  .profile-photo { width: 170px; height: 170px; }
+  .about p { font-size: 16px; }
+  nav a { margin: 0 8px; }
+}
+</style>
 </head>
 
 <body>
 
+<header>
+  <div class="logo">ALIN ALEX CALUGARU</div>
+  <nav>
+    <a href="#books">BOOKS</a>
+    <a href="#about">ABOUT THE AUTHOR</a>
+  </nav>
+</header>
+
 <main>
 
+<div class="hero">
   <img
     class="profile-photo"
     src="file_00000000a27481f4bbddcdb5f6ef31fc.png"
-    alt="Alin Alex Calugaru">
+    alt="Alin Alex Calugaru"
+  >
 
-  <h1>ALIN ALEX CALUGARU</h1>
+  <div class="eyebrow">Official Author Website</div>
 
-  <div class="subtitle">
-    Author • Independent Creator • Developer
+  <h1>ALIN ALEX<br>CALUGARU</h1>
+
+  <div class="tagline">Stories Beyond Boundaries.</div>
+
+  <p class="intro">
+    Romance. Imagination. Comedy.
+    The extraordinary possibilities of human life.
+  </p>
+
+  <a class="button" href="#books">
+    DISCOVER THE BOOKS
+  </a>
+</div>
+
+<section id="books">
+
+  <h2>Books & Stories</h2>
+
+  <p class="section-intro">
+    Explore the literary universe of Alin Alex Calugaru.
+  </p>
+
+  <div class="books" id="book-list"></div>
+
+</section>
+
+<div class="about-wrapper">
+
+<section class="about" id="about">
+
+  <div class="eyebrow" style="text-align:center">
+    The Story Behind the Stories
   </div>
 
-  <section>
-    <h2>About</h2>
+  <h2>About the Author</h2>
 
-    <p>
-      Alin Alex Calugaru is a Romanian author and independent creator
-      based in France. His work explores human memory, emotion,
-      identity, technology and the traces people leave behind.
-    </p>
-  </section>
+  <p>
+    <strong>ALIN ALEX CALUGARU</strong>
+    (born Calugaru Alin Alexandru) was born on
+    November 22, 1978, in Târgu Jiu, Romania.
+  </p>
 
-  <section>
+  <p>
+    His life has been shaped by travel, curiosity,
+    imagination, and an enduring fascination with
+    people and the world around him.
+  </p>
 
-    <h2>Books & Research</h2>
+  <p>
+    Having traveled throughout Europe and visited
+    several countries in Asia, he has encountered
+    different cultures, traditions, ways of thinking,
+    and extraordinary people from many walks of life.
+  </p>
 
-    <div class="card">
-      <h2>THE SPARK CODE</h2>
+  <p>
+    Every journey brought new experiences.
+    Every encounter offered another perspective
+    on human nature, ambition, love, humor,
+    and the extraordinary complexity of everyday life.
+  </p>
 
-      <p>
-        A philosophical science-fiction and romantic novel exploring
-        love, memory, identity and the possibility that something of us
-        may persist beyond autobiographical memory.
-      </p>
-    </div>
+  <p>
+    These experiences became part of his
+    creative inspiration.
+  </p>
 
-    <div class="card">
-      <h2>THE LAST STEP. THE FIRST TRACE.</h2>
+  <p>
+    For Alin Alex Calugaru, imagination has no
+    geographical borders, and a story should never
+    be limited by what already exists.
+  </p>
 
-      <p>
-        A work presenting the Affective Hash Persistence Hypothesis
-        (AHPH), exploring whether affective traces could persist
-        independently of autobiographical memory.
-      </p>
-    </div>
+  <p>
+    His literary universe ranges from romance
+    and comedy to science fiction, psychological
+    exploration, and ambitious technological concepts.
+  </p>
 
-  </section>
+  <p>
+    In works such as <strong>UTCN</strong> and
+    <strong>OVERPARK</strong>, his imagination ventures
+    into ideas and large-scale projects whose fictional
+    ambitions can reach hundreds of millions of euros.
+  </p>
 
-  <section>
+  <p>
+    Yet beyond the scale of these concepts, his
+    writing remains deeply connected to human
+    experience: the people we meet, the decisions
+    we make, the dreams we pursue, and the
+    unexpected ways life changes us.
+  </p>
 
-    <h2>Research Identity</h2>
+  <div class="quote">
+    The world offers the experiences.<br>
+    Imagination transforms them into stories.
+  </div>
 
-    <p>
-      ORCID:
-      <a href="https://orcid.org/0009-0006-6637-5050"
-         target="_blank"
-         rel="noopener noreferrer">
-        0009-0006-6637-5050
-      </a>
-    </p>
+  <p>
+    Today, Alin Alex Calugaru continues to develop
+    an expanding collection of novels for an
+    international audience, driven by the belief
+    that the most extraordinary stories often
+    begin with a simple question:
+  </p>
 
-  </section>
+  <div class="final-question">What if?</div>
 
-  <footer>
-    © 2026 ALIN ALEX CALUGARU — All Rights Reserved
-  </footer>
+</section>
+</div>
 
 </main>
+
+<footer>
+  © 2026 ALIN ALEX CALUGARU — All Rights Reserved
+</footer>
+
+<script>
+const books = [
+  ["H2L1 — HAPPINESS FORMULA", "Romance · Comedy · Adventure"],
+  ["THE SPARK CODE", "Science Fiction · Romance"],
+  ["THE LAST STEP. THE FIRST TRACE.", "Speculative Fiction"],
+  ["FUCK…EARTH!", "Science Fiction · Comedy"],
+  ["RETURN TO THE FIRST AGE", "Psychological Fiction"],
+  ["MY GENIUS PARTNER IS TERROR", "Comedy"],
+  ["OVERPARK", "Fiction"],
+  ["UTCN", "Fiction"],
+  ["VERITASIS", "Fiction"]
+];
+
+const list = document.getElementById("book-list");
+
+books.forEach(function(book) {
+  const article = document.createElement("article");
+  article.className = "book";
+
+  const cover = document.createElement("div");
+  cover.className = "book-cover";
+  cover.textContent = "✦";
+
+  const content = document.createElement("div");
+  content.className = "book-content";
+
+  const genre = document.createElement("div");
+  genre.className = "genre";
+  genre.textContent = book[1];
+
+  const title = document.createElement("h3");
+  title.textContent = book[0];
+
+  const description = document.createElement("p");
+  description.textContent =
+    "Discover this work by Alin Alex Calugaru. Cover artwork and verified retailer links coming soon.";
+
+  content.append(genre, title, description);
+  article.append(cover, content);
+  list.appendChild(article);
+});
+</script>
 
 </body>
 </html>
