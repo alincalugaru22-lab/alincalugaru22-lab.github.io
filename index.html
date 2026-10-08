@@ -145,7 +145,7 @@ h2 {
 }
 
 .book-cover {
-  height: 145px;
+  height: 340px;
   background: linear-gradient(135deg, #342c21, #171922);
   display: flex;
   align-items: center;
@@ -412,7 +412,14 @@ cover.appendChild(img);
   description.textContent =
     "Discover this work by Alin Alex Calugaru. Cover artwork and verified retailer links coming soon.";
 
-  content.append(genre, title, description);
+  const buyLink = document.createElement("a");
+buyLink.textContent = "BUY ON AMAZON";
+buyLink.className = "button";
+buyLink.href = "https://www.amazon.fr/s?k=" +
+  encodeURIComponent(book[0] + " Alin Alex Calugaru");
+buyLink.target = "_blank";
+buyLink.rel = "noopener noreferrer";
+  content.append(genre, title, description, buyLink);
   article.append(cover, content);
   list.appendChild(article);
 });
