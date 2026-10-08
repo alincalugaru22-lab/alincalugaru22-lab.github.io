@@ -367,17 +367,20 @@ footer {
 </footer>
 
 <script>
+
 const books = [
-  ["H2L1 — HAPPINESS FORMULA", "Romance · Comedy · Adventure"],
-  ["THE SPARK CODE", "Science Fiction · Romance"],
-  ["THE LAST STEP. THE FIRST TRACE.", "Speculative Fiction"],
-  ["FUCK…EARTH!", "Science Fiction · Comedy"],
-  ["RETURN TO THE FIRST AGE", "Psychological Fiction"],
-  ["MY GENIUS PARTNER IS TERROR", "Comedy"],
-  ["OVERPARK", "Fiction"],
-  ["UTCN", "Fiction"],
-  ["VERITASIS", "Fiction"]
+  ["H2L1 — HAPPINESS FORMULA", "Romance · Comedy · Adventure", "H2L1_HAPPINESS_FORMULA.jpg"],
+  ["THE SPARK CODE", "Science Fiction · Romance", "THE_SPARK_CODE.jpg"],
+  ["LE CODE DE L’ÉTINCELLE", "French Edition", "LE_CODE_DE_L_ETINCELLE.jpg"],
+  ["THE LAST STEP. THE FIRST TRACE.", "Speculative Fiction", "THE_LAST_STEP_THE_FIRST_TRACE.jpg"],
+  ["FUCK...EARTH!", "Science Fiction · Comedy", "FUCK_EARTH.jpg"],
+  ["RETURN TO THE FIRST AGE", "Psychological Fiction", "RETURN_TO_THE_FIRST_AGE.jpg"],
+  ["MY GENIUS PARTNER IS TERROR", "Comedy", "MY_GENIUS_PARTNER_IS_TERROR.jpg"],
+  ["OVERPARK", "Technology · Innovation", "OVERPARK.jpg"],
+  ["UTCN", "Technology · Innovation", "UTCN.jpg"],
+  ["VERITASIS", "Fiction", "VERITASIS.jpg"]
 ];
+
 
 const list = document.getElementById("book-list");
 
@@ -387,7 +390,13 @@ books.forEach(function(book) {
 
   const cover = document.createElement("div");
   cover.className = "book-cover";
-  cover.textContent = "✦";
+  const img = document.createElement("img");
+img.src = book[2];
+img.alt = book[0];
+img.style.width = "100%";
+img.style.height = "100%";
+img.style.objectFit = "contain";
+cover.appendChild(img);
 
   const content = document.createElement("div");
   content.className = "book-content";
