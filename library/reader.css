@@ -1,0 +1,110 @@
+.reader{position:fixed;inset:0;z-index:100;background:#0d1110;display:grid;place-items:center;perspective:1800px;overflow:hidden;color:#f5e5c8}.reader[hidden]{display:none}.reader-close,.reader-sound{position:absolute;top:max(12px,env(safe-area-inset-top));z-index:50;width:44px;height:44px;display:grid;place-items:center;border:1px solid #d1b98955;border-radius:50%;background:#111812bb;color:#f5e5c8;cursor:pointer}.reader-close{right:16px;font:24px Georgia}.reader-sound{left:16px;font:17px Georgia}.reader-title{position:absolute;z-index:40;top:25px;left:70px;right:70px;text-align:center;font:10px Georgia;letter-spacing:.19em;color:#cfbd9a;pointer-events:none}.reader-book{position:relative;width:min(54dvh,78vw,560px);aspect-ratio:2/3;perspective:1800px;transform-style:preserve-3d;isolation:isolate;filter:drop-shadow(0 18px 25px #0008)}.reader-book:before{content:'';position:absolute;inset:3px -5px -4px 3px;background:repeating-linear-gradient(#ede1c5 0 2px,#bca87a 2px 3px);border:2px solid #48321a;border-radius:2px 6px 6px 2px;z-index:-1}.reader-page{position:absolute;inset:0;background:#11140f;overflow:hidden;touch-action:none}.page-image{position:absolute;inset:0;width:100%;height:100%;object-fit:fill}.hard-cover{position:absolute;inset:-2px;z-index:15;transform-origin:0 50%;transform-style:preserve-3d;cursor:pointer;border:0;padding:0;background:none;transition:transform 1.35s cubic-bezier(.45,.05,.25,1);box-shadow:0 0 0 3px #40301c,3px 5px 0 3px #271a0c;border-radius:2px 5px 5px 2px}.hard-cover .front,.hard-cover .back{position:absolute;inset:0;backface-visibility:hidden;border-radius:2px 5px 5px 2px}.hard-cover .front{background:#382513;transform:translateZ(5px)}.hard-cover .front img{display:block;width:100%;height:100%;object-fit:fill;border-radius:2px 5px 5px 2px}.hard-cover .back{transform:rotateY(180deg) translateZ(5px);background:linear-gradient(90deg,#a68c5e,#e3d6b9 55%,#b09a6f)}.hard-cover:after{content:'';position:absolute;top:0;bottom:0;right:0;width:9px;background:#473118;transform:rotateY(90deg);transform-origin:right}.reader.open .hard-cover{transform:rotateY(-168deg);pointer-events:none}.reader.cover-finished .hard-cover{visibility:hidden}.reader.open.cover-finished .reader-book{width:min(94vw,108dvh,1400px);aspect-ratio:3/2}.reader-controls{position:absolute;z-index:40;bottom:max(12px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:29px}.reader-controls button{width:44px;height:44px;display:grid;place-items:center;border:1px solid #d1b98966;border-radius:50%;background:#111812bb;color:#f7dfae;font:23px Georgia;cursor:pointer}.reader-controls button:disabled{opacity:.24;cursor:default}.reader-count{font:11px Georgia;letter-spacing:.1em;min-width:54px;text-align:center}.reader:not(.cover-finished) .reader-controls{visibility:hidden}.reader-buy{position:absolute;top:calc(100% + 16px);left:50%;transform:translateX(-50%);z-index:35;display:block;white-space:nowrap;padding:9px 21px;border:1px solid #bca16c;border-radius:2px;background:#d4b579;color:#1c180f;text-decoration:none;font:11px Georgia;letter-spacing:.1em;box-shadow:0 3px 12px #0004}.reader-buy:hover{background:#f0d390}.reader-hint,.turn-canvas{display:none}.reader-hit{position:absolute;inset:0;z-index:25;display:flex}.reader-hit button{border:0;background:none;width:50%;cursor:pointer;touch-action:pan-y}.reader:not(.cover-finished) .reader-hit{pointer-events:none}.reader button:focus-visible,.reader a:focus-visible{outline:2px solid #ffe8ac;outline-offset:4px}.natural-pages{position:absolute!important;inset:0;width:100%!important;height:100%!important}.natural-pages .stf__parent{min-width:0!important;min-height:0!important}.reader-page .stf__wrapper{width:100%!important;height:100%!important;padding-bottom:0!important}.reader-page .stf__block{overflow:hidden}.illustrated-leaf{position:relative;overflow:hidden;background:#11140f}.full-page-art{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;display:block}.mobile-copy{display:none}
+@media(orientation:portrait){.reader-title{top:25px;font-size:9px;letter-spacing:.13em}.reader-book{width:min(83vw,52dvh)}.reader.open.cover-finished .reader-book{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;filter:none}.reader.open.cover-finished .reader-book:before{display:none}.reader.cover-finished .reader-page{border-radius:0}.reader.cover-finished .full-page-art{object-fit:cover;object-position:center top}.mobile-copy{position:absolute;inset:0;display:block;background:linear-gradient(180deg,#060c1238,transparent 19%,transparent 40%,#0c100f44 51%,#0c100fe8 67%,#0c100f 90%);pointer-events:none}.mobile-copy blockquote{position:absolute;left:7%;right:7%;bottom:156px;margin:0;font:clamp(20px,5.7vw,29px)/1.42 Georgia,serif;font-weight:400;color:#fff2dc;text-wrap:pretty;text-shadow:0 2px 9px #0009}.mobile-copy .chapter-mark{position:absolute;left:7%;bottom:calc(156px + 9.2em);font:8px Georgia;letter-spacing:.2em;color:#d6bc85;display:none}.reader.cover-finished .reader-buy{top:auto;bottom:80px;padding:9px 18px;font-size:10px;background:#d4b579;color:#1c180f}.reader-controls{bottom:max(15px,env(safe-area-inset-bottom));width:86%;justify-content:space-between;gap:0}.reader-close{right:13px}.reader-sound{left:13px}.reader:not(.cover-finished) .reader-buy{top:calc(100% + 18px)}}
+@media(max-height:500px) and (orientation:landscape){.reader-book{width:47dvh}.reader.open.cover-finished .reader-book{width:106dvh}.reader-title{top:16px}.reader-close,.reader-sound{top:8px;width:32px;height:32px}.reader-buy{padding:6px 14px;font-size:9px;top:calc(100% + 8px)}.reader-controls{right:16px;left:auto;transform:none;gap:14px;bottom:8px}.reader-controls button{width:31px;height:31px}}
+@media(prefers-reduced-motion:reduce){.hard-cover{transition-duration:.3s}}
+/* H2L1 uses the complete supplied landscape plates, including original lettering. */
+.happiness-reader{background:#000}.happiness-reader:before{display:none}
+.happiness-reader.cover-finished .reader-title{display:none}
+.happiness-reader .full-page-art{object-fit:contain!important;object-position:center!important}
+.happiness-reader .mobile-copy{display:none!important}
+@media(orientation:portrait){
+ .happiness-reader.open.cover-finished .reader-book{position:relative;inset:auto;width:100%;height:auto;aspect-ratio:3/2;filter:drop-shadow(0 12px 28px #0008)}
+ .happiness-reader.cover-finished .reader-page{background:#101310}
+ .happiness-reader.cover-finished .reader-buy{top:calc(100% + 22px);bottom:auto}
+}
+
+@media(max-height:600px) and (orientation:landscape){
+ .happiness-reader.open.cover-finished .reader-book{width:min(150dvh,100vw);height:auto;aspect-ratio:3/2;filter:none}
+ .happiness-reader.open.cover-finished .reader-book:before{display:none}
+ .happiness-reader.cover-finished .reader-page,.happiness-reader .illustrated-leaf{background:#000}
+ .happiness-reader.cover-finished .reader-buy{position:fixed;top:auto;bottom:12px;right:10px;left:auto;transform:none;font-size:8px;padding:8px 10px}
+ .happiness-reader.cover-finished .reader-controls{position:fixed;top:50%;bottom:auto;right:15px;left:auto;transform:translateY(-50%);width:34px;flex-direction:column;gap:13px}
+ .happiness-reader.cover-finished .reader-count{min-width:0;font-size:10px}
+ .happiness-reader.cover-finished .reader-close,.happiness-reader.cover-finished .reader-sound{top:10px;width:32px;height:32px}
+}
+
+/* Original Terror plates are widescreen; retain their entire artwork and lettering. */
+.terror-reader.open.cover-finished .reader-book{width:min(94vw,132dvh,1600px);aspect-ratio:1671/941}
+@media(orientation:portrait){.terror-reader.open.cover-finished .reader-book{width:100%;height:auto;aspect-ratio:1671/941}}
+@media(max-height:600px) and (orientation:landscape){.terror-reader.open.cover-finished .reader-book{width:min(177.577dvh,100vw);height:auto;aspect-ratio:1671/941}}
+
+@media(max-height:600px) and (orientation:landscape){.terror-reader.cover-finished .reader-buy{font-size:7px;letter-spacing:.03em;padding:8px 4px;right:6px;max-width:calc((100vw - min(177.577dvh,100vw))/2 - 12px);text-align:center;white-space:normal}}
+
+.earth-reader.open.cover-finished .reader-book{aspect-ratio:1672/941}
+@media(max-height:600px) and (orientation:landscape){.earth-reader.open.cover-finished .reader-book{width:min(177.683dvh,100vw)}.earth-reader.cover-finished .reader-buy{max-width:calc((100vw - min(177.683dvh,100vw))/2 - 12px)}}
+
+.veritasis-reader.open.cover-finished .reader-book{width:min(66.666667dvh,100vw);height:auto;aspect-ratio:2/3;filter:none}
+.veritasis-reader.open.cover-finished .reader-book:before{display:none}
+.veritasis-reader.cover-finished .reader-buy{position:fixed;top:auto;bottom:16px;left:auto;right:20px;transform:none;font-size:10px;padding:9px 16px}
+.veritasis-reader.cover-finished .reader-controls{position:fixed;top:50%;bottom:auto;right:20px;left:auto;transform:translateY(-50%);width:44px;flex-direction:column;gap:14px}
+@media(orientation:portrait){
+ .veritasis-reader.open.cover-finished .reader-book{position:absolute;inset:auto;top:calc((100dvh - 100px - min(150vw,calc(100dvh - 100px)))/2);left:50%;transform:translateX(-50%);width:min(100vw,calc((100dvh - 100px)/1.5));height:auto;aspect-ratio:2/3}
+ .veritasis-reader.cover-finished .reader-buy{position:fixed;top:auto;bottom:66px;left:50%;right:auto;transform:translateX(-50%);font-size:10px;padding:8px 18px}
+ .veritasis-reader.cover-finished .reader-controls{top:auto;bottom:10px;left:50%;right:auto;transform:translateX(-50%);width:86%;flex-direction:row;justify-content:space-between;gap:0}
+ .veritasis-reader.cover-finished .reader-close,.veritasis-reader.cover-finished .reader-sound{top:8px;width:32px;height:32px}
+}
+
+.ailo-reader.open.cover-finished .reader-book{width:min(91.40625dvh,100vw);aspect-ratio:1404/1536}
+@media(orientation:portrait){.ailo-reader.open.cover-finished .reader-book{width:min(100vw,calc((100dvh - 100px)*.9140625));aspect-ratio:1404/1536;top:calc((100dvh - 100px - min(109.40171vw,calc(100dvh - 100px)))/2)}}
+
+/* Shared reading room: retain every approved cover, plate and page turn. */
+.reader,.happiness-reader{background:#20180f url(assets/library-film-poster.jpg) center/cover no-repeat}
+.reader:before,.happiness-reader:before{content:'';display:block;position:absolute;inset:0;pointer-events:none;background:linear-gradient(#100d0970,#100d0938 45%,#100d0988)}
+.reader-book{z-index:1}
+.reader-close,.reader-sound,.reader-controls button{background:#20180fe8;border-color:#e4c98e99;box-shadow:0 2px 12px #0006}
+.reader-count,.reader-title{text-shadow:0 2px 5px #000,0 0 12px #000}
+
+/* No obsolete placeholder or edge-on cover may flash before the original plates. */
+.reader .page-image{visibility:hidden!important;object-fit:contain}
+.reader.open .hard-cover{box-shadow:none}
+.reader.open .hard-cover:after{display:none}
+.reader.cover-finished .hard-cover{display:none}
+.library-music{position:fixed;z-index:160;left:12px;bottom:12px;border:1px solid #d8bd7e88;border-radius:20px;background:#20180fe8;color:#f6e3b8;padding:9px 13px;font:11px Georgia;cursor:pointer}
+.reader:not([hidden])~.library-music{bottom:12px}
+.reader:not(.cover-finished) .reader-page{background:#e7d9bc}
+.reading-active .library-music{top:62px;bottom:auto;font-size:10px;padding:7px 10px}
+.library .signature{bottom:51px;left:0;width:100%;text-align:center}
+body.reading-active .library-music{top:62px;bottom:auto!important;height:auto;max-height:36px;line-height:1.2}
+
+/* Zidarun Duat: complete approved chapter plates, with no crop or distortion. */
+.zidarun-reader.open.cover-finished .reader-book{width:min(94vw,100dvh,1400px);aspect-ratio:593/432;height:auto}
+.zidarun-reader.cover-finished .illustrated-leaf,.zidarun-reader.cover-finished .reader-page{background:transparent}
+.zidarun-reader .reader-buy:disabled{cursor:default;opacity:.75}
+@media(orientation:portrait){.zidarun-reader.open.cover-finished .reader-book{position:absolute;left:50%;top:50%;transform:translate(-50%,-60%);width:100vw;aspect-ratio:593/432}}
+@media(max-height:600px) and (orientation:landscape){.zidarun-reader.open.cover-finished .reader-book{width:min(137.27dvh,100vw);aspect-ratio:593/432}}
+
+/* Preserve all five approved AHPH panels and their integrated lettering. */
+.laststep-reader.cover-finished .illustrated-leaf,.laststep-reader.cover-finished .reader-page{background:transparent}
+.laststep-reader .reader-buy:disabled{cursor:default;opacity:.75}
+
+/* Complete approved OVERPARK concept plates, preserving all integrated text. */
+.overpark-reader.cover-finished .illustrated-leaf,.overpark-reader.cover-finished .reader-page{background:transparent}
+.overpark-reader .reader-buy:disabled{cursor:default;opacity:.75}
+
+/* Complete approved UTCN plates, preserving integrated text and proportions. */
+.utcn-reader.cover-finished .illustrated-leaf,.utcn-reader.cover-finished .reader-page{background:transparent}
+.utcn-reader .reader-buy:disabled{cursor:default;opacity:.75}
+
+/* French original plates: complete images and lettering without stretching. */
+.etincelle-reader.open.cover-finished .reader-book{width:min(94vw,90dvh,1200px);aspect-ratio:1;height:auto}
+.etincelle-reader.cover-finished .illustrated-leaf,.etincelle-reader.cover-finished .reader-page{background:transparent}
+.etincelle-reader .reader-buy:disabled{cursor:default;opacity:.75}
+@media(orientation:portrait){.etincelle-reader.open.cover-finished .reader-book{position:absolute;left:50%;top:50%;transform:translate(-50%,-60%);width:min(100vw,calc(100dvh - 120px));aspect-ratio:1}}
+@media(max-height:600px) and (orientation:landscape){.etincelle-reader.open.cover-finished .reader-book{width:90dvh;aspect-ratio:1}}
+
+/* Moki: approved original illustrations and embedded text, shown in full. */
+.moki-reader.open.cover-finished .reader-book{width:min(94vw,100dvh,1400px);aspect-ratio:593/422;height:auto}
+.moki-reader.cover-finished .illustrated-leaf,.moki-reader.cover-finished .reader-page{background:transparent}
+@media(orientation:portrait){.moki-reader.open.cover-finished .reader-book{position:absolute;left:50%;top:50%;transform:translate(-50%,-60%);width:100vw;aspect-ratio:593/422}}
+@media(max-height:600px) and (orientation:landscape){.moki-reader.open.cover-finished .reader-book{width:min(140.5dvh,100vw);aspect-ratio:593/422}}
+
+/* THE 13TH: complete original approved plates. */
+.thirteen-reader.cover-finished .illustrated-leaf,.thirteen-reader.cover-finished .reader-page{background:transparent}
+
+.return-reader.cover-finished .illustrated-leaf,.return-reader.cover-finished .reader-page{background:transparent}
+
+/* MUFILO: approved full illustrations, original 3:2 proportions. */
+.mufilo-reader.open.cover-finished .reader-book{width:min(94vw,120dvh,1400px);aspect-ratio:3/2;height:auto}
+.mufilo-reader.cover-finished .illustrated-leaf,.mufilo-reader.cover-finished .reader-page{background:transparent}
+@media(orientation:portrait){.mufilo-reader.open.cover-finished .reader-book{position:absolute;left:50%;top:50%;transform:translate(-50%,-60%);width:100vw;aspect-ratio:3/2}}
+@media(max-height:600px) and (orientation:landscape){.mufilo-reader.open.cover-finished .reader-book{width:min(135dvh,100vw);aspect-ratio:3/2}}
