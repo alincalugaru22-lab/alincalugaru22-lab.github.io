@@ -1,0 +1,3 @@
+(()=>{'use strict';const cue=document.createElement('audio');cue.id='transition-sound';cue.hidden=true;cue.preload='auto';cue.volume=.55;document.body.append(cue);
+window.BNDLightSound={play(step){cue.pause();if(window.BNDMusic?.getEnabled()===false)return;const n=Math.max(1,Math.min(4,step));cue.dataset.step=String(n);cue.src='assets/audio/light-'+n+'.wav';cue.currentTime=0;cue.play().catch(()=>{})}};
+window.addEventListener('bnd-audio-state',e=>{if(!e.detail)cue.pause()});window.addEventListener('pagehide',()=>cue.pause());document.addEventListener('visibilitychange',()=>{if(document.hidden)cue.pause()});})();
