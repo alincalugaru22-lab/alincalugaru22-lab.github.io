@@ -1,0 +1,352 @@
+[
+  {
+    "number": 1,
+    "volume": "1",
+    "title": "GENESIS",
+    "cover": "coming-demo/agency/01.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 2,
+    "volume": "2",
+    "title": "THE NODIA PROTOCOL",
+    "cover": "coming-demo/agency/02.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 3,
+    "volume": "3",
+    "title": "THE SILENT EVIDENCE",
+    "cover": "coming-demo/agency/03.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 4,
+    "volume": "4",
+    "title": "THE FRACTURED SIGNAL",
+    "cover": "coming-demo/agency/04.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 5,
+    "volume": "5",
+    "title": "THE BURIED WITNESS",
+    "cover": "coming-demo/agency/05.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 6,
+    "volume": "6",
+    "title": "THE SEVENTH TRACE",
+    "cover": "coming-demo/agency/06.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 7,
+    "volume": "7",
+    "title": "THE FORBIDDEN FREQUENCY",
+    "cover": "coming-demo/agency/07.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 8,
+    "volume": "8",
+    "title": "THE NODERRA KEY",
+    "cover": "coming-demo/agency/08.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 9,
+    "volume": "9",
+    "title": "THE VANISHING COORDINATES",
+    "cover": "coming-demo/agency/09.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 10,
+    "volume": "10",
+    "title": "THE FALSE HORIZON",
+    "cover": "coming-demo/agency/10.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 11,
+    "volume": "11",
+    "title": "THE MEMORY VAULT",
+    "cover": "coming-demo/agency/11.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 12,
+    "volume": "12",
+    "title": "THE UNSEEN PATTERN",
+    "cover": "coming-demo/agency/12.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 13,
+    "volume": "13",
+    "title": "THE SHADOW ARCHIVE",
+    "cover": "coming-demo/agency/13.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 14,
+    "volume": "14",
+    "title": "THE BROKEN SEQUENCE",
+    "cover": "coming-demo/agency/14.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 15,
+    "volume": "15",
+    "title": "THE VAELORA CIPHER",
+    "cover": "coming-demo/agency/15.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 16,
+    "volume": "16",
+    "title": "THE MISSING HOUR",
+    "cover": "coming-demo/agency/16.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 17,
+    "volume": "17",
+    "title": "THE SECOND WITNESS",
+    "cover": "coming-demo/agency/17.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 18,
+    "volume": "18",
+    "title": "THE SILENT TRANSMISSION",
+    "cover": "coming-demo/agency/18.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 19,
+    "volume": "19",
+    "title": "THE HIDDEN VARIABLE",
+    "cover": "coming-demo/agency/19.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 20,
+    "volume": "20",
+    "title": "THE STOLEN MEMORY",
+    "cover": "coming-demo/agency/20.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 21,
+    "volume": "21",
+    "title": "THE IMPOSSIBLE RECORD",
+    "cover": "coming-demo/agency/21.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 22,
+    "volume": "22",
+    "title": "THE ORYNDRA PARADOX",
+    "cover": "coming-demo/agency/22.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 23,
+    "volume": "23",
+    "title": "THE SEALED PASSAGE",
+    "cover": "coming-demo/agency/23.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 24,
+    "volume": "24",
+    "title": "THE ECHO EXPERIMENT",
+    "cover": "coming-demo/agency/24.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 25,
+    "volume": "25",
+    "title": "THE LOST OBSERVER",
+    "cover": "coming-demo/agency/25.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 26,
+    "volume": "26",
+    "title": "THE MIRROR PROTOCOL",
+    "cover": "coming-demo/agency/26.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 27,
+    "volume": "27",
+    "title": "THE INVISIBLE BORDER",
+    "cover": "coming-demo/agency/27.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 28,
+    "volume": "28",
+    "title": "THE FINAL MEASUREMENT",
+    "cover": "coming-demo/agency/28.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 29,
+    "volume": "29",
+    "title": "THE THALYRA CONVERGENCE",
+    "cover": "coming-demo/agency/29.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 30,
+    "volume": "30",
+    "title": "THE DISTANT PULSE",
+    "cover": "coming-demo/agency/30.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 31,
+    "volume": "31",
+    "title": "THE HOLLOW SANCTUARY",
+    "cover": "coming-demo/agency/31.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 32,
+    "volume": "32",
+    "title": "THE REVERSED SIGNAL",
+    "cover": "coming-demo/agency/32.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 33,
+    "volume": "33",
+    "title": "THE ABSENT EXPEDITION",
+    "cover": "coming-demo/agency/33.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 34,
+    "volume": "34",
+    "title": "THE UNWRITTEN WARNING",
+    "cover": "coming-demo/agency/34.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 35,
+    "volume": "35",
+    "title": "THE LAST SAFE COORDINATE",
+    "cover": "coming-demo/agency/35.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 36,
+    "volume": "36",
+    "title": "THE AETHERRA THRESHOLD",
+    "cover": "coming-demo/agency/36.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 37,
+    "volume": "37",
+    "title": "THE BLACKOUT FILE",
+    "cover": "coming-demo/agency/37.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 38,
+    "volume": "38",
+    "title": "THE COUNTERFEIT TRUTH",
+    "cover": "coming-demo/agency/38.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 39,
+    "volume": "39",
+    "title": "THE DISAPPEARING MAP",
+    "cover": "coming-demo/agency/39.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 40,
+    "volume": "40",
+    "title": "THE UNCLAIMED SIGNAL",
+    "cover": "coming-demo/agency/40.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 41,
+    "volume": "41",
+    "title": "THE WITNESS WITHOUT A PAST",
+    "cover": "coming-demo/agency/41.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 42,
+    "volume": "42",
+    "title": "THE SEVENTH LOCK",
+    "cover": "coming-demo/agency/42.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 43,
+    "volume": "43",
+    "title": "THE ZERYTHRA REVELATION",
+    "cover": "coming-demo/agency/43.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 44,
+    "volume": "44",
+    "title": "THE OLYMPIA CONNECTION",
+    "cover": "coming-demo/agency/44.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 45,
+    "volume": "45",
+    "title": "THE GIZA EQUATION",
+    "cover": "coming-demo/agency/45.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 46,
+    "volume": "46",
+    "title": "THE EASTERN ANOMALY",
+    "cover": "coming-demo/agency/46.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 47,
+    "volume": "47",
+    "title": "THE PHAROS INTERCEPT",
+    "cover": "coming-demo/agency/47.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 48,
+    "volume": "48",
+    "title": "THE SOUTHERN TESTIMONY",
+    "cover": "coming-demo/agency/48.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 49,
+    "volume": "49",
+    "title": "THE LAST ALIGNMENT",
+    "cover": "coming-demo/agency/49.avif",
+    "status": "Coming soon"
+  },
+  {
+    "number": 50,
+    "volume": "50",
+    "title": "THE TRUTH ON TERRA",
+    "cover": "coming-demo/agency/50.avif",
+    "status": "Coming soon"
+  }
+]

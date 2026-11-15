@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 130" preserveAspectRatio="none" fill="none">
+<defs>
+<linearGradient id="gold" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#fff9cf"/><stop offset=".18" stop-color="#ffdc70"/><stop offset=".42" stop-color="#a76212"/><stop offset=".52" stop-color="#fff4b1"/><stop offset=".72" stop-color="#eab340"/><stop offset="1" stop-color="#7e400a"/></linearGradient>
+<linearGradient id="edge" x2="0" y2="1"><stop stop-color="#fffde7"/><stop offset=".4" stop-color="#ffc849"/><stop offset=".62" stop-color="#fff1a0"/><stop offset="1" stop-color="#a76313"/></linearGradient>
+<radialGradient id="enamel" cx=".44" cy=".18" r=".95"><stop stop-color="#226192"/><stop offset=".4" stop-color="#112d58"/><stop offset="1" stop-color="#030d24"/></radialGradient>
+<radialGradient id="gem"><stop stop-color="#fff7bc"/><stop offset=".18" stop-color="#ffd04f"/><stop offset=".55" stop-color="#cb7c12"/><stop offset="1" stop-color="#502207"/></radialGradient>
+</defs>
+<path d="M62 20Q82 11 110 20H144L158 10 180 18 202 10 216 20H250Q278 11 298 20L314 33Q342 34 333 55L344 65 333 75Q342 96 314 97L298 110Q278 119 250 110H216L202 120 180 112 158 120 144 110H110Q82 119 62 110L46 97Q18 96 27 75L16 65 27 55Q18 34 46 33Z" fill="#3c1e08" stroke="#ffc84e" stroke-width="3"/>
+<path d="M64 26Q84 16 111 26H146L160 17 180 24 200 17 214 26H249Q276 16 296 26L312 39Q335 40 325 57L335 65 325 73Q335 90 312 91L296 104Q276 114 249 104H214L200 113 180 106 160 113 146 104H111Q84 114 64 104L48 91Q25 90 35 73L25 65 35 57Q25 40 48 39Z" fill="url(#gold)" stroke="url(#edge)" stroke-width="3"/>
+<path d="M76 33H284Q293 47 311 48L318 65 311 82Q293 83 284 97H76Q67 83 49 82L42 65 49 48Q67 47 76 33Z" fill="url(#enamel)" stroke="#65350c" stroke-width="5"/>
+<path d="M78 35H282Q292 50 309 50L315 65 309 80Q292 80 282 95H78Q68 80 51 80L45 65 51 50Q68 50 78 35Z" stroke="url(#edge)" stroke-width="2"/>
+<g stroke="url(#gold)" stroke-width="6" stroke-linecap="round">
+<path d="M95 23C71 0 39 10 45 29C49 44 76 35 64 23C56 16 50 26 58 29M265 23C289 0 321 10 315 29C311 44 284 35 296 23C304 16 310 26 302 29M95 107C71 130 39 120 45 101C49 86 76 95 64 107C56 114 50 104 58 101M265 107C289 130 321 120 315 101C311 86 284 95 296 107C304 114 310 104 302 101"/>
+<path d="M46 43C15 27 11 58 32 57M314 43C345 27 349 58 328 57M46 87C15 103 11 72 32 73M314 87C345 103 349 72 328 73"/>
+</g>
+<g fill="url(#gem)" stroke="#fff0a0" stroke-width="1.5"><path d="m180 5 12 13-12 14-12-14Z"/><path d="m180 98 12 14-12 13-12-13Z"/><circle cx="30" cy="65" r="7"/><circle cx="330" cy="65" r="7"/></g>
+<g fill="#fff9d3"><path d="m180 7 2 9 8 2-8 2-2 10-2-10-8-2 8-2Z"/><path d="m303 23 2 6 7 2-7 2-2 6-2-6-7-2 7-2Z"/><path d="m58 96 2 6 7 2-7 2-2 6-2-6-7-2 7-2Z"/></g>
+</svg>

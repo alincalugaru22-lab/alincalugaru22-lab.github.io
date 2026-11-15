@@ -1,0 +1,378 @@
+[
+  {
+    "number": 4,
+    "volume": "IV",
+    "title": "ERADYN",
+    "cover": "coming-demo/latitude/04.webp",
+    "source": "Eradyn: A Gold-Framed Literary Universe.png",
+    "status": "Coming soon"
+  },
+  {
+    "number": 5,
+    "volume": "V",
+    "title": "ZIRAT",
+    "cover": "coming-demo/latitude/05.webp",
+    "source": "ZIRAT_BOOK_V_COPERTA_SIMBOL_I.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 6,
+    "volume": "VI",
+    "title": "KRYVAN",
+    "cover": "coming-demo/latitude/06.webp",
+    "source": "KRYVAN_BOOK_VI_COPERTA_SIMBOL.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 7,
+    "volume": "VII",
+    "title": "THAREON",
+    "cover": "coming-demo/latitude/07.webp",
+    "source": "THAREON_BOOK_VII_KDP_HARDCOVER_150P_WHITE_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 8,
+    "volume": "VIII",
+    "title": "HERYTHAN",
+    "cover": "coming-demo/latitude/08.webp",
+    "source": "HERYTHAN_VIII_COPERTA_HARDCOVER_KDP_150P_COTOR_X.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 9,
+    "volume": "IX",
+    "title": "KARVETH",
+    "cover": "coming-demo/latitude/09.webp",
+    "source": "KARVETH_BOOK_IX_HARDCOVER_KDP_6x9_150P_WHITE_NO_BARCODE.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 10,
+    "volume": "X",
+    "title": "ATHERION",
+    "cover": "coming-demo/latitude/10.webp",
+    "source": "ATHERION_BOOK_X_HARDCOVER_KDP_150P_WHITE_300DPI.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 11,
+    "volume": "XI",
+    "title": "ELYNDAR",
+    "cover": "coming-demo/latitude/11.webp",
+    "source": "ELYNDAR_BOOK_XI_HARDCOVER_150P_WHITE_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 12,
+    "volume": "XII",
+    "title": "LYRANTH",
+    "cover": "coming-demo/latitude/12.webp",
+    "source": "LYRANTH_COPERTA_REFACUTA.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 13,
+    "volume": "XIII",
+    "title": "ORYNDAL",
+    "cover": "coming-demo/latitude/13.webp",
+    "source": "ORYNDAL_BOOK_XIII_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 14,
+    "volume": "XIV",
+    "title": "RYVANTH",
+    "cover": "coming-demo/latitude/14.webp",
+    "source": "RYVANTH_BOOK_XIV_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 15,
+    "volume": "XV",
+    "title": "NYMERIS",
+    "cover": "coming-demo/latitude/15.webp",
+    "source": "NYMERIS_BOOK_XV_COVER_ORIGINAL_STYLE.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 16,
+    "volume": "XVI",
+    "title": "VELDRIS",
+    "cover": "coming-demo/latitude/16.webp",
+    "source": "VELDRIS_BOOK_XVI_COVER_SYMBOL_V.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 17,
+    "volume": "XVII",
+    "title": "ESTRAVEN",
+    "cover": "coming-demo/latitude/17.webp",
+    "source": "ESTRAVEN_BOOK_XVII_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 18,
+    "volume": "XVIII",
+    "title": "SORYTH",
+    "cover": "coming-demo/latitude/18.webp",
+    "source": "SORYTH_BOOK_XVIII_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 19,
+    "volume": "XIX",
+    "title": "ARVENDAL",
+    "cover": "coming-demo/latitude/19.webp",
+    "source": "ARVENDAL_BOOK_XIX_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 20,
+    "volume": "XX",
+    "title": "RHEVANT",
+    "cover": "coming-demo/latitude/20.webp",
+    "source": "RHEVANT_BOOK_XX_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 21,
+    "volume": "XXI",
+    "title": "OTHRYS",
+    "cover": "coming-demo/latitude/21.webp",
+    "source": "OTHRYS_BOOK_XXI_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 22,
+    "volume": "XXII",
+    "title": "NERYVAL",
+    "cover": "coming-demo/latitude/22.webp",
+    "source": "NERYVAL_BOOK_XXII_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 23,
+    "volume": "XXIII",
+    "title": "ISTRAVEN",
+    "cover": "coming-demo/latitude/23.webp",
+    "source": "ISTRAVEN_BOOK_XXIII_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 24,
+    "volume": "XXIV",
+    "title": "LORYND",
+    "cover": "coming-demo/latitude/24.webp",
+    "source": "LORYND_BOOK_XXIV_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 25,
+    "volume": "XXV",
+    "title": "YSENDAR",
+    "cover": "coming-demo/latitude/25.webp",
+    "source": "YSENDAR_BOOK_XXV_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 26,
+    "volume": "XXVI",
+    "title": "TERYVAN",
+    "cover": "coming-demo/latitude/26.webp",
+    "source": "TERYVAN_BOOK_XXVI_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 27,
+    "volume": "XXVII",
+    "title": "HALDORYS",
+    "cover": "coming-demo/latitude/27.webp",
+    "source": "HALDORYS_BOOK_XXVII_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 28,
+    "volume": "XXVIII",
+    "title": "AZRYN",
+    "cover": "coming-demo/latitude/28.webp",
+    "source": "AZRYN_BOOK_XXVIII_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 29,
+    "volume": "XXIX",
+    "title": "RAVENDIR",
+    "cover": "coming-demo/latitude/29.webp",
+    "source": "RAVENDIR_BOOK_XXIX_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 30,
+    "volume": "XXX",
+    "title": "ASTRYON",
+    "cover": "coming-demo/latitude/30.webp",
+    "source": "ASTRYON_BOOK_XXX_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 31,
+    "volume": "XXXI",
+    "title": "ELDRAK",
+    "cover": "coming-demo/latitude/31.webp",
+    "source": "ELDRAK_BOOK_XXXI_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 32,
+    "volume": "XXXII",
+    "title": "TAVORYN",
+    "cover": "coming-demo/latitude/32.webp",
+    "source": "TAVORYN_BOOK_XXXII_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 33,
+    "volume": "XXXIII",
+    "title": "HYRDEL",
+    "cover": "coming-demo/latitude/33.webp",
+    "source": "HYRDEL_BOOK_XXXIII_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 34,
+    "volume": "XXXIV",
+    "title": "YRAVETH",
+    "cover": "coming-demo/latitude/34.webp",
+    "source": "YRAVETH_BOOK_XXXIV_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 35,
+    "volume": "XXXV",
+    "title": "RHESKAR",
+    "cover": "coming-demo/latitude/35.webp",
+    "source": "RHESKAR_BOOK_XXXV_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 36,
+    "volume": "XXXVI",
+    "title": "NIVALOR",
+    "cover": "coming-demo/latitude/36.webp",
+    "source": "NIVALOR_BOOK_XXXVI_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 37,
+    "volume": "XXXVII",
+    "title": "ZARVON",
+    "cover": "coming-demo/latitude/37.webp",
+    "source": "ZARVON_BOOK_XXXVII_COPERTA_MODEL_VOL_I.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 38,
+    "volume": "XXXVIII",
+    "title": "ORTHAL",
+    "cover": "coming-demo/latitude/38.webp",
+    "source": "ORTHAL_BOOK_XXXVIII_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 39,
+    "volume": "XXXIX",
+    "title": "RYNDOR",
+    "cover": "coming-demo/latitude/39.webp",
+    "source": "RYNDOR_BOOK_XXXIX_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 40,
+    "volume": "XL",
+    "title": "YLVARIS",
+    "cover": "coming-demo/latitude/40.webp",
+    "source": "YLVARIS_BOOK_XL_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 41,
+    "volume": "XLI",
+    "title": "NERATH",
+    "cover": "coming-demo/latitude/41.webp",
+    "source": "NERATH_BOOK_XLI_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 42,
+    "volume": "XLII",
+    "title": "TYRAVEL",
+    "cover": "coming-demo/latitude/42.webp",
+    "source": "TYRAVEL_BOOK_XLII_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 43,
+    "volume": "XLIII",
+    "title": "HALVORYN",
+    "cover": "coming-demo/latitude/43.webp",
+    "source": "HALVORYN_BOOK_XLIII_COVER_VISUAL_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 44,
+    "volume": "XLIV",
+    "title": "EUROPA — THE OLYMPIA ARCHIVE",
+    "cover": "coming-demo/latitude/44.webp",
+    "source": "EUROPA_BOOK_XLIV_HARDCOVER_COVER.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 45,
+    "volume": "XLV",
+    "title": "LIBYA",
+    "cover": "coming-demo/latitude/45.webp",
+    "source": "LIBYA_BOOK_XLV_HARDCOVER_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 46,
+    "volume": "XLVI",
+    "title": "ASIA",
+    "cover": "coming-demo/latitude/46.webp",
+    "source": "ASIA_BOOK_XLVI_HARDCOVER_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 47,
+    "volume": "XLVII",
+    "title": "TURTLE ISLAND — THE PHAROS VECTOR",
+    "cover": "coming-demo/latitude/47.webp",
+    "source": "TURTLE_ISLAND_BOOK_XLVII_HARDCOVER_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 48,
+    "volume": "XLVIII",
+    "title": "ABYA YALA",
+    "cover": "coming-demo/latitude/48.webp",
+    "source": "ABYA_YALA_BOOK_XLVIII_HARDCOVER_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 49,
+    "volume": "XLIX",
+    "title": "NEW HOLLAND",
+    "cover": "coming-demo/latitude/49.webp",
+    "source": "NEW_HOLLAND_BOOK_XLIX_HARDCOVER_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  },
+  {
+    "number": 50,
+    "volume": "L",
+    "title": "ANTARKTIKOS",
+    "cover": "coming-demo/latitude/50.webp",
+    "source": "ANTARKTIKOS_BOOK_L_HARDCOVER_COVER_PROOF.pdf",
+    "status": "Coming soon"
+  }
+]

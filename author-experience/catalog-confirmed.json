@@ -1,0 +1,332 @@
+[
+  {
+    "id": "spark",
+    "title": "The Spark Code",
+    "genres": [
+      "romance",
+      "speculative"
+    ],
+    "buy": "https://amzn.eu/d/09w1CGv2",
+    "cover": "assets/collection/spark.jpg",
+    "pages": [
+      "assets/collection/spark-approved/page-1.jpg",
+      "assets/collection/spark-approved/page-2.jpg",
+      "assets/collection/spark-approved/page-3.jpg",
+      "assets/collection/spark-approved/page-4.jpg",
+      "assets/collection/spark-approved/page-5.jpg"
+    ],
+    "source": "https://alinalexcalugaru.com/library/reader.js"
+  },
+  {
+    "id": "happiness",
+    "title": "H2L1 — Happiness Formula",
+    "genres": [
+      "romance"
+    ],
+    "buy": "https://amzn.eu/d/03yV9330",
+    "cover": "assets/collection/happiness.jpg",
+    "pages": [
+      "assets/collection/happiness-approved/page-1.png",
+      "assets/collection/happiness-approved/page-2.png",
+      "assets/collection/happiness-approved/page-3.png",
+      "assets/collection/happiness-approved/page-4.png",
+      "assets/collection/happiness-approved/page-5.png"
+    ],
+    "source": "https://alinalexcalugaru.com/library/happiness-reader.js"
+  },
+  {
+    "id": "earth",
+    "title": "Fuck… Earth!",
+    "genres": [
+      "speculative"
+    ],
+    "buy": "https://www.amazon.fr/dp/B0HM472XFG",
+    "cover": "assets/collection/earth-original-front.svg",
+    "pages": [
+      "assets/collection/earth-approved/page-1.png",
+      "assets/collection/earth-approved/page-2.png",
+      "assets/collection/earth-approved/page-3.png",
+      "assets/collection/earth-approved/page-4.png",
+      "assets/collection/earth-approved/page-5.png"
+    ],
+    "source": "https://alinalexcalugaru.com/library/earth-reader.js"
+  },
+  {
+    "id": "genius",
+    "title": "My Genius Partner Is Terror",
+    "genres": [
+      "speculative"
+    ],
+    "buy": "https://www.amazon.fr/dp/B0HMVZNKJV",
+    "cover": "assets/collection/genius.jpg",
+    "pages": [
+      "assets/collection/genius-1.webp",
+      "assets/collection/genius-2.webp",
+      "assets/collection/genius-3.webp",
+      "assets/collection/genius-4.webp",
+      "assets/collection/genius-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/terror-reader.js"
+  },
+  {
+    "id": "veritasis",
+    "title": "Veritasis",
+    "genres": [
+      "mystery",
+      "speculative"
+    ],
+    "buy": "https://www.amazon.fr/dp/B0HN4NM8WM",
+    "cover": "assets/collection/veritasis.jpg",
+    "pages": [
+      "assets/collection/veritasis-1.webp",
+      "assets/collection/veritasis-2.webp",
+      "assets/collection/veritasis-3.webp",
+      "assets/collection/veritasis-4.webp",
+      "assets/collection/veritasis-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/veritasis-reader.js"
+  },
+  {
+    "id": "ailo",
+    "title": "Pact with AILO",
+    "genres": [
+      "speculative"
+    ],
+    "buy": "https://www.amazon.fr/dp/B0HNQLWDYX",
+    "cover": "assets/collection/ailo.jpg",
+    "pages": [
+      "assets/collection/ailo-1.webp",
+      "assets/collection/ailo-2.webp",
+      "assets/collection/ailo-3.webp",
+      "assets/collection/ailo-4.webp",
+      "assets/collection/ailo-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/ailo-reader.js"
+  },
+  {
+    "id": "zidarun",
+    "title": "Zidarun Duat",
+    "genres": [
+      "mystery",
+      "speculative"
+    ],
+    "buy": "https://amzn.eu/d/00ilW8UV",
+    "cover": "assets/collection/zidarun.jpg",
+    "pages": [
+      "assets/collection/zidarun-1.webp",
+      "assets/collection/zidarun-2.webp",
+      "assets/collection/zidarun-3.webp",
+      "assets/collection/zidarun-4.webp",
+      "assets/collection/zidarun-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/zidarun-reader.js"
+  },
+  {
+    "id": "laststep",
+    "title": "The Last Step. The First Trace.",
+    "genres": [
+      "speculative",
+      "reflection"
+    ],
+    "buy": "https://www.amazon.co.jp/dp/B0HMVVT9YL",
+    "cover": "assets/collection/laststep.jpg",
+    "pages": [
+      "assets/collection/laststep-1.webp",
+      "assets/collection/laststep-2.webp",
+      "assets/collection/laststep-3.webp",
+      "assets/collection/laststep-4.webp",
+      "assets/collection/laststep-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/laststep-reader.js"
+  },
+  {
+    "id": "overpark",
+    "title": "Overpark",
+    "genres": [
+      "technology"
+    ],
+    "buy": "https://amzn.eu/d/0ifb41rW",
+    "cover": "assets/collection/overpark.jpg",
+    "pages": [
+      "assets/collection/overpark-1.webp",
+      "assets/collection/overpark-2.webp",
+      "assets/collection/overpark-3.webp",
+      "assets/collection/overpark-4.webp",
+      "assets/collection/overpark-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/overpark-reader.js"
+  },
+  {
+    "id": "utcn",
+    "title": "UTCN",
+    "genres": [
+      "technology"
+    ],
+    "buy": "https://www.amazon.ca/dp/B0HLSDVQ3Z",
+    "cover": "assets/collection/utcn.jpg",
+    "pages": [
+      "assets/collection/utcn-1.webp",
+      "assets/collection/utcn-2.webp",
+      "assets/collection/utcn-3.webp",
+      "assets/collection/utcn-4.webp",
+      "assets/collection/utcn-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/utcn-reader.js"
+  },
+  {
+    "id": "etincelle",
+    "title": "Le Code de l’Étincelle",
+    "genres": [
+      "romance",
+      "speculative"
+    ],
+    "buy": "https://amzn.eu/d/08RQvUEF",
+    "cover": "assets/collection/etincelle.jpg",
+    "pages": [
+      "assets/collection/etincelle-approved/page-1.png",
+      "assets/collection/etincelle-approved/page-2.png",
+      "assets/collection/etincelle-approved/page-3.png",
+      "assets/collection/etincelle-approved/page-4.png",
+      "assets/collection/etincelle-approved/page-5.png"
+    ],
+    "source": "https://alinalexcalugaru.com/library/etincelle-reader.js"
+  },
+  {
+    "id": "moki",
+    "title": "Moki and the Flower on the Hill",
+    "genres": [
+      "children"
+    ],
+    "buy": "https://www.amazon.com/dp/B0HQ7HPTK5",
+    "cover": "assets/collection/moki.jpg",
+    "pages": [
+      "assets/collection/moki-1.webp",
+      "assets/collection/moki-2.webp",
+      "assets/collection/moki-3.webp",
+      "assets/collection/moki-4.webp",
+      "assets/collection/moki-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/moki-reader.js"
+  },
+  {
+    "id": "thirteen",
+    "title": "The 13th 10.03",
+    "genres": [
+      "mystery",
+      "speculative"
+    ],
+    "buy": "https://www.amazon.com/dp/B0HPG5249L",
+    "cover": "assets/collection/thirteen.jpg",
+    "pages": [
+      "assets/collection/thirteen-1.webp",
+      "assets/collection/thirteen-2.webp",
+      "assets/collection/thirteen-3.webp",
+      "assets/collection/thirteen-4.webp",
+      "assets/collection/thirteen-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/thirteen-reader.js"
+  },
+  {
+    "id": "return",
+    "title": "Return to the First Age",
+    "genres": [
+      "reflection"
+    ],
+    "buy": "https://amzn.eu/d/02r7fu2F",
+    "cover": "assets/collection/return.jpg",
+    "pages": [
+      "assets/collection/return-1.webp",
+      "assets/collection/return-2.webp",
+      "assets/collection/return-3.webp",
+      "assets/collection/return-4.webp",
+      "assets/collection/return-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/return-reader.js"
+  },
+  {
+    "id": "mufilo",
+    "title": "Mufilo",
+    "genres": [
+      "children"
+    ],
+    "buy": "https://www.amazon.com/dp/B0HNN9K884",
+    "cover": "assets/collection/mufilo.jpg",
+    "pages": [
+      "assets/collection/mufilo-1.webp",
+      "assets/collection/mufilo-2.webp",
+      "assets/collection/mufilo-3.webp",
+      "assets/collection/mufilo-4.webp",
+      "assets/collection/mufilo-5.webp"
+    ],
+    "source": "https://alinalexcalugaru.com/library/mufilo-reader.js"
+  },
+  {
+    "id": "latitude",
+    "title": "LATITUDE 91° — Inside or Outside?",
+    "genres": [
+      "speculative"
+    ],
+    "buy": null,
+    "cover": "assets/universe/latitude-91-book-i.jpg",
+    "pages": [
+      "assets/universe/latitude-page-1.png",
+      "assets/universe/latitude-page-2.png",
+      "assets/universe/latitude-page-3.png",
+      "assets/universe/latitude-page-4.png",
+      "assets/universe/latitude-page-5.png"
+    ],
+    "source": "Author-supplied original cover and five illustrations"
+  },
+  {
+    "id": "nodia",
+    "title": "NODIA",
+    "genres": [
+      "speculative"
+    ],
+    "buy": null,
+    "cover": "assets/universe/nodia-book-ii.jpg",
+    "pages": [
+      "assets/universe/nodia-page-1.png",
+      "assets/universe/nodia-page-2.png",
+      "assets/universe/nodia-page-3.png",
+      "assets/universe/nodia-page-4.png",
+      "assets/universe/nodia-page-5.png"
+    ],
+    "source": "Author-supplied original cover and five illustrations"
+  },
+  {
+    "id": "vareth",
+    "title": "VARETH",
+    "genres": [
+      "speculative"
+    ],
+    "buy": null,
+    "cover": "assets/universe/vareth-book-iii.jpg",
+    "pages": [
+      "assets/universe/vareth-page-1.png",
+      "assets/universe/vareth-page-2.png",
+      "assets/universe/vareth-page-3.png",
+      "assets/universe/vareth-page-4.png",
+      "assets/universe/vareth-page-5.png"
+    ],
+    "source": "Author-supplied original cover and five illustrations"
+  },
+  {
+    "id": "my-angel",
+    "title": "My Angel, My Problem",
+    "genres": [
+      "romance",
+      "speculative"
+    ],
+    "buy": null,
+    "cover": "assets/collection/my-angel/cover.jpg",
+    "pages": [
+      "assets/collection/my-angel/page-1.png",
+      "assets/collection/my-angel/page-2.png",
+      "assets/collection/my-angel/page-3.png",
+      "assets/collection/my-angel/page-4.png",
+      "assets/collection/my-angel/page-5.png"
+    ],
+    "source": "Author-supplied original cover and five illustrations"
+  }
+]
